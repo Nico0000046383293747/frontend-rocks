@@ -29,14 +29,14 @@ export const App = () => {
             className="bg-orange-600 text-white px-4 py-2 rounded-md shadow-md cursor-pointer hover:bg-orange-600 transition-colors"
             onClick={() => setCount((count) => count + 1)}
           >
-            You have pushed the botton {count} {count === 1 ? "time" : "times"}
+            Y ou have pushed the botton {count} {count === 1 ? "time" : "times"}
           </button>
 
           <button
            className="bg-red-700 text-white px-4 py-2 rounded-md shadow-md cursor-pointer hover:bg-red-600 transition-colors"
           onClick = {() => setTitle("Charizard")}
           >
-          CHANGE THE TITOL 
+          CHANGE THE TITLE 
          </button>
 
           <p className="text-center">
