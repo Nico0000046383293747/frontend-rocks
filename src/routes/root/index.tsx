@@ -1,8 +1,9 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
+import reactLogo from "../../assets/react.svg";
 import viteLogo from "/vite.svg";
+import { Link } from "react-router";
 
-export const App = () => {
+export const RootRoute = () => {
   const [count, setCount] = useState(0);
   const [ title, setTitle] = useState("Raichu");
 
@@ -42,10 +43,15 @@ export const App = () => {
           <p className="text-center">
             Modifica <code>src/App.tsx</code> e salva per testare l'hot reload
           </p>
+            
+          <Link to ="/dettaglio/0">Link</Link>
+           
         </div>
 
-        <p className="text-center text-sm text-blue-400">Clicca sui loghi per saperne di più</p>
+        <p className="text-center text-sm text-blue-400">Clicca sui loghi per saperne di più
+          
+        </p>
       </div>
+      
     </div>
-  );
-}
+  );}
