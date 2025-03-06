@@ -9,7 +9,7 @@ export const App = () => {
   return (
     <div className="h-dvh flex flex-col items-center justify-center">
       <div className="bg-white p-8 rounded-md shadow-lg">
-        <h1 className="text-center font-bold text-3xl text-blue-400 mb-4">
+        <h1 className="text-center font-bold text-3xl text-yellow-600 mb-4">
         {title}
         </h1>
 
@@ -26,10 +26,10 @@ export const App = () => {
 
         <div className="flex flex-col items-center space-y-4">
           <button
-            className="bg-blue-500 text-white px-4 py-2 rounded-md shadow-md cursor-pointer hover:bg-blue-600 transition-colors"
+            className="bg-orange-600 text-white px-4 py-2 rounded-md shadow-md cursor-pointer hover:bg-orange-600 transition-colors"
             onClick={() => setCount((count) => count + 1)}
           >
-            Hai premuto il pulsante {count} {count === 1 ? "volta" : "volte"}
+            Tou have pushed the botton {count} {count === 1 ? "time" : "times"}
           </button>
 
           <button
