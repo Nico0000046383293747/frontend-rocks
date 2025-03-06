@@ -29,7 +29,7 @@ export const App = () => {
             className="bg-orange-600 text-white px-4 py-2 rounded-md shadow-md cursor-pointer hover:bg-orange-600 transition-colors"
             onClick={() => setCount((count) => count + 1)}
           >
-            Tou have pushed the botton {count} {count === 1 ? "time" : "times"}
+            You have pushed the botton {count} {count === 1 ? "time" : "times"}
           </button>
 
           <button
